@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000805] (serial_chat) JobQueued: {'identifier': 'serial_chat', 'dependencies': OrderedDict()}
+[0.001143] (serial_chat) JobStarted: {'identifier': 'serial_chat'}
+[0.093003] (-) TimerEvent: {}
+[0.196826] (-) TimerEvent: {}
+[0.297994] (-) TimerEvent: {}
+[0.399347] (-) TimerEvent: {}
+[0.500560] (-) TimerEvent: {}
+[0.602134] (-) TimerEvent: {}
+[0.703486] (-) TimerEvent: {}
+[0.804676] (-) TimerEvent: {}
+[0.905504] (-) TimerEvent: {}
+[1.006399] (-) TimerEvent: {}
+[1.107233] (-) TimerEvent: {}
+[1.208163] (-) TimerEvent: {}
+[1.308892] (-) TimerEvent: {}
+[1.409629] (-) TimerEvent: {}
+[1.510362] (-) TimerEvent: {}
+[1.611075] (-) TimerEvent: {}
+[1.712037] (-) TimerEvent: {}
+[1.812913] (-) TimerEvent: {}
+[1.913702] (-) TimerEvent: {}
+[2.014381] (-) TimerEvent: {}
+[2.115137] (-) TimerEvent: {}
+[2.215880] (-) TimerEvent: {}
+[2.316840] (-) TimerEvent: {}
+[2.417629] (-) TimerEvent: {}
+[2.518413] (-) TimerEvent: {}
+[2.619098] (-) TimerEvent: {}
+[2.719921] (-) TimerEvent: {}
+[2.831761] (-) TimerEvent: {}
+[2.932639] (-) TimerEvent: {}
+[3.033426] (-) TimerEvent: {}
+[3.134196] (-) TimerEvent: {}
+[3.235011] (-) TimerEvent: {}
+[3.335775] (-) TimerEvent: {}
+[3.436516] (-) TimerEvent: {}
+[3.537306] (-) TimerEvent: {}
+[3.638051] (-) TimerEvent: {}
+[3.738778] (-) TimerEvent: {}
+[3.839471] (-) TimerEvent: {}
+[3.940264] (-) TimerEvent: {}
+[4.040958] (-) TimerEvent: {}
+[4.141610] (-) TimerEvent: {}
+[4.242429] (-) TimerEvent: {}
+[4.343286] (-) TimerEvent: {}
+[4.426013] (serial_chat) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_chat', 'build', '--build-base', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build', 'install', '--record', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log', '--single-version-externally-managed'], 'cwd': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sreeram3927', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sreeram3927', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/sreeram3927', 'TERM_PROGRAM_VERSION': '1.75.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1554', 'SYSTEMD_EXEC_PID': '1715', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5593', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sreeram3927', 'JOURNAL_STREAM': '8:32060', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sreeram3927', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sreeram3927/.local/bin:/home/sreeram3927/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sreeram3927/dev/flutter/bin:/home/sreeram3927/dev/flutter/bin', 'SESSION_MANAGER': 'local/Sree-Dev:@/tmp/.ICE-unix/1697,unix/Sree-Dev:/tmp/.ICE-unix/1697', 'INVOCATION_ID': '73442357d9934d26a96d7f81b28e864c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PHSG11', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aebf0a258e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.443430] (-) TimerEvent: {}
+[4.544153] (-) TimerEvent: {}
+[4.644917] (-) TimerEvent: {}
+[4.745685] (-) TimerEvent: {}
+[4.846431] (-) TimerEvent: {}
+[4.947366] (-) TimerEvent: {}
+[5.048053] (-) TimerEvent: {}
+[5.148651] (-) TimerEvent: {}
+[5.249343] (-) TimerEvent: {}
+[5.350066] (-) TimerEvent: {}
+[5.450733] (-) TimerEvent: {}
+[5.551504] (-) TimerEvent: {}
+[5.652206] (-) TimerEvent: {}
+[5.702117] (serial_chat) StdoutLine: {'line': b'running egg_info\n'}
+[5.705832] (serial_chat) StdoutLine: {'line': b'writing ../../build/serial_chat/serial_chat.egg-info/PKG-INFO\n'}
+[5.706707] (serial_chat) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_chat/serial_chat.egg-info/dependency_links.txt\n'}
+[5.707478] (serial_chat) StdoutLine: {'line': b'writing entry points to ../../build/serial_chat/serial_chat.egg-info/entry_points.txt\n'}
+[5.708124] (serial_chat) StdoutLine: {'line': b'writing requirements to ../../build/serial_chat/serial_chat.egg-info/requires.txt\n'}
+[5.708769] (serial_chat) StdoutLine: {'line': b'writing top-level names to ../../build/serial_chat/serial_chat.egg-info/top_level.txt\n'}
+[5.716529] (serial_chat) StdoutLine: {'line': b"reading manifest file '../../build/serial_chat/serial_chat.egg-info/SOURCES.txt'\n"}
+[5.721653] (serial_chat) StdoutLine: {'line': b"writing manifest file '../../build/serial_chat/serial_chat.egg-info/SOURCES.txt'\n"}
+[5.722440] (serial_chat) StdoutLine: {'line': b'running build\n'}
+[5.722755] (serial_chat) StdoutLine: {'line': b'running build_py\n'}
+[5.724054] (serial_chat) StdoutLine: {'line': b'running install\n'}
+[5.752406] (-) TimerEvent: {}
+[5.771544] (serial_chat) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.772433] (serial_chat) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.773682] (serial_chat) StdoutLine: {'line': b'running install_lib\n'}
+[5.779499] (serial_chat) StdoutLine: {'line': b'running install_data\n'}
+[5.782792] (serial_chat) StdoutLine: {'line': b'copying package.xml -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat\n'}
+[5.784120] (serial_chat) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.791317] (serial_chat) StdoutLine: {'line': b"removing '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.792896] (serial_chat) StdoutLine: {'line': b'Copying ../../build/serial_chat/serial_chat.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info\n'}
+[5.797732] (serial_chat) StdoutLine: {'line': b'running install_scripts\n'}
+[5.852585] (-) TimerEvent: {}
+[5.892457] (serial_chat) StdoutLine: {'line': b'Installing chat_node script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat\n'}
+[5.894559] (serial_chat) StdoutLine: {'line': b"writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log'\n"}
+[5.952817] (-) TimerEvent: {}
+[6.005584] (serial_chat) CommandEnded: {'returncode': 0}
+[6.056816] (-) TimerEvent: {}
+[6.154393] (serial_chat) JobEnded: {'identifier': 'serial_chat', 'rc': 0}
+[6.158459] (-) TimerEvent: {}
+[6.158903] (-) EventReactorShutdown: {}
