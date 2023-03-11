@@ -10,3 +10,7 @@ class SerialChatNode(Node):
 
         port = '/dev/ttyUSB0'
         baudrate = 115200
+        
+        self.serial = serial.Serial(port, baudrate, timeout=1)
+        self.sub = self.create_subscription(String, 'serial_chat', self.callback, 10)
+        self.pub = self.create_publisher(String, 'serial_chat', 10)
