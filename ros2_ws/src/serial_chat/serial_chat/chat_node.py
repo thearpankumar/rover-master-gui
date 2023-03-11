@@ -33,3 +33,15 @@ class SerialChatNode(Node):
                 msg = String()
                 msg.data = data
                 self.pub.publish(msg)
+                
+def main(args=None):
+    rclpy.init(args=args)
+    node = SerialChatNode()
+    rclpy.spin(node)
+    node.serial_thread.join()
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+
