@@ -24,3 +24,12 @@ class SerialChatNode(Node):
         data = msg.data
         self.get_logger().info('Received: %s' % data)
         self.serial.write((data + '\n').encode('utf-8'))
+        
+    def serial_callback(self):
+        while rclpy.ok():
+            if self.serial.in_waiting > 0:
+                data = self.serial.readline().decode('utf-8').strip()
+                self.get_logger().info('Received: %s' % data)
+                msg = String()
+                msg.data = data
+                self.pub.publish(msg)
