@@ -25,12 +25,12 @@ class App(customtkinter.CTk):
         self.geometry(f"{1100}x{580}")
 
         # configure grid layout (4x4)
-        self.grid_columnconfigure(1, weight=5)
+        self.grid_columnconfigure(1, weight=100) #here here
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
 
         #add side bar buttons
-        self.sidebar_frame = customtkinter.CTkFrame(self, width=140, corner_radius=0)
+        self.sidebar_frame = customtkinter.CTkFrame(self, width=50, corner_radius=10)
         self.sidebar_frame.grid(row=0, column=0, rowspan=4, sticky="nsew")
         self.sidebar_frame.grid_rowconfigure((0,1,2,3,4), weight=0)
         self.sidebar_frame.grid_rowconfigure(5, weight=3)
