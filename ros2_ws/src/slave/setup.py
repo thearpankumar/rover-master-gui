@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'get_data = slave.get_data:main',
         ],
     },
 )
