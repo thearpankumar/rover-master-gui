@@ -26,7 +26,6 @@ def main(args=None) :
         msg.data = user_input
         ### serial.write(msg.data.encode())
         pub_sent.publish(msg)
-        rclpy.spin_once(node)
 
     node.destroy_node()
     rclpy.shutdown()

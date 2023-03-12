@@ -4,6 +4,32 @@ from std_msgs.msg import String
 import serial
 #import threading
 
+def main(args=None) :
+    rclpy.init(args=args)
+    
+    port = '/dev/ttyUSB0'
+    baudrate = 9600
+    
+    node = rclpy.create_node('serial_data')
+    pub_sent = node.create_publisher(String, 'sent_msgs', 10)
+    pub_received = node.create_publisher(String, 'recieved_msgs', 10)
+    
+    def callback(self, received_data):
+        ### received_data = serial.readline().decode().strip()
+        pub_received.publish(received_data)
+        
+    sub = node.create_subscription(String, 'serial_data', callback, 10)
+    
+    while rclpy.ok():
+        user_input = input('Enter a message to publish: ')
+        msg = String()
+        msg.data = user_input
+        ### serial.write(msg.data.encode())
+        pub_sent.publish(msg)
+
+    node.destroy_node()
+    rclpy.shutdown()
+
 class SerialNode(Node):
     def __init__(self):
         super().__init__('serial_data')
@@ -48,7 +74,7 @@ class SerialNode(Node):
     #             self.pub.publish(msg)
     
 
-                
+"""               
 def main(args=None):
     rclpy.init(args=args)
     
@@ -59,6 +85,7 @@ def main(args=None):
     
     node.destroy_node()
     rclpy.shutdown()
+"""
 
 if __name__ == '__main__':
     main()
