@@ -1,3 +1,4 @@
 [console_scripts]
 chat_node = serial_chat.chat_node:main
+gui_node = serial_chat.gui_node:main
 

@@ -1,7 +1,11 @@
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/__init__.py
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/chat_node.py
+/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/gui_node.py
+/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/gui.py
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/__pycache__/__init__.cpython-310.pyc
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/__pycache__/chat_node.cpython-310.pyc
+/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/__pycache__/gui_node.cpython-310.pyc
+/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/__pycache__/gui.cpython-310.pyc
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/ament_index/resource_index/packages/serial_chat
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/package.xml
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info/zip-safe
@@ -12,3 +16,4 @@
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info/PKG-INFO
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info/top_level.txt
 /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat/chat_node
+/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat/gui_node
