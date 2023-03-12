@@ -15,7 +15,7 @@ class MyFrame(customtkinter.CTkFrame):
 
 
 
-class App(customtkinter.CTk):
+class AppGui(customtkinter.CTk):
     def __init__(self):
         super().__init__()
 
@@ -105,5 +105,5 @@ class App(customtkinter.CTk):
 
 
 if __name__ == "__main__":
-    app = App()
+    app = AppGui()
     app.mainloop()
