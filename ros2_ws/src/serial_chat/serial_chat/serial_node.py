@@ -25,6 +25,13 @@ class SerialNode(Node):
         received_data = serial.readline().decode().strip()
         self.pub_received.publish(received_data)
         
+    def get_user_input(self):
+        while rclpy.ok():
+            user_input = input('Enter a message to publish: ')
+            msg = String()
+            msg.data = user_input
+            self.pub_sent.publish(msg)
+        
     # def callback(self, msg):
     #     data = msg.data
     #     self.get_logger().info('Received: %s' % data)
