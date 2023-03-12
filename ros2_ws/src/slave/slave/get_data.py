@@ -1,6 +1,9 @@
 import rclpy
 from std_msgs.msg import String
 
+def message_callback(msg):
+    print('Received message: "%s"' % msg.data)
+
 def main(args=None):
     rclpy.init(args=args)
 
