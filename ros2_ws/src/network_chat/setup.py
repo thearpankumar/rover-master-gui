@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'serial_chat'
+package_name = 'network_chat'
 
 setup(
     name=package_name,
@@ -20,8 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'chat_node = serial_chat.chat_node:main',
-            'gui_node = serial_chat.gui_node:main'
+            'send_data = network_chat.send_data:main'
         ],
     },
 )
