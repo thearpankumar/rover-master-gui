@@ -6,25 +6,30 @@ import serial
 
 class SerialChatNode(Node):
     def __init__(self):
-        super().__init__('serial_chat')
+        super().__init__('serial_data')
 
         port = '/dev/ttyUSB0'
         baudrate = 9600
         
         self.serial = serial.Serial(port, baudrate, timeout=1)
-        self.sub = self.create_subscription(String, 'serial_chat', self.callback, 10)
+        self.sub = self.create_subscription(String, 'serial_data', self.callback, 10)
         self.pub_sent = self.create_publisher(String, 'sent_msgs', 10)
+        self.pub_received = self.create_publisher(String, 'recieved_msgs', 10)
         
         # self.serial_thread = threading.Thread(target=self.serial_callback)
         # self.serial_thread.start()
 
         self.get_logger().info('SerialChatNode initialized')
         
-    def callback(self, msg):
-        data = msg.data
-        self.get_logger().info('Received: %s' % data)
-        self.serial.write((data + '\n').encode('utf-8'))
+    def callback(self):
+        received_data = serial.readline().decode().strip()
+        self.pub_received.publish(received_data)
         
+    # def callback(self, msg):
+    #     data = msg.data
+    #     self.get_logger().info('Received: %s' % data)
+    #     self.serial.write((data + '\n').encode('utf-8'))
+      
     def serial_callback(self):
         while rclpy.ok():
             if self.serial.in_waiting > 0:
