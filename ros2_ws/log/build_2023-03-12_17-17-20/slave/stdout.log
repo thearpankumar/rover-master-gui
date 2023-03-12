@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/slave/slave.egg-info
+writing ../../build/slave/slave.egg-info/PKG-INFO
+writing dependency_links to ../../build/slave/slave.egg-info/dependency_links.txt
+writing entry points to ../../build/slave/slave.egg-info/entry_points.txt
+writing requirements to ../../build/slave/slave.egg-info/requires.txt
+writing top-level names to ../../build/slave/slave.egg-info/top_level.txt
+writing manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+reading manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+writing manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build
+creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib
+creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave
+copying slave/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave
+copying slave/get_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave
+running install
+running install_lib
+creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave
+copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave
+copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave/get_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave
+byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave/get_data.py to get_data.cpython-310.pyc
+running install_data
+creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index
+creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index
+creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index/packages
+copying resource/slave -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index/packages
+copying package.xml -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave
+running install_egg_info
+Copying ../../build/slave/slave.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_data script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/slave
+writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log'

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/slave/slave.egg-info/PKG-INFO
+../../build/slave/slave.egg-info/SOURCES.txt
+../../build/slave/slave.egg-info/dependency_links.txt
+../../build/slave/slave.egg-info/entry_points.txt
+../../build/slave/slave.egg-info/requires.txt
+../../build/slave/slave.egg-info/top_level.txt
+../../build/slave/slave.egg-info/zip-safe
+resource/slave
+slave/__init__.py
+slave/get_data.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000214] (network_chat) JobQueued: {'identifier': 'network_chat', 'dependencies': OrderedDict()}
+[0.000303] (serial_chat) JobQueued: {'identifier': 'serial_chat', 'dependencies': OrderedDict()}
+[0.000377] (slave) JobQueued: {'identifier': 'slave', 'dependencies': OrderedDict()}
+[0.000434] (network_chat) JobStarted: {'identifier': 'network_chat'}
+[0.097945] (-) TimerEvent: {}
+[0.180533] (serial_chat) JobStarted: {'identifier': 'serial_chat'}
+[0.203060] (slave) JobStarted: {'identifier': 'slave'}
+[0.203238] (-) TimerEvent: {}
+[0.303681] (-) TimerEvent: {}
+[0.404279] (-) TimerEvent: {}
+[0.504666] (-) TimerEvent: {}
+[0.605102] (-) TimerEvent: {}
+[0.705566] (-) TimerEvent: {}
+[0.806195] (-) TimerEvent: {}
+[0.907232] (-) TimerEvent: {}
+[1.007682] (-) TimerEvent: {}
+[1.108128] (-) TimerEvent: {}
+[1.208601] (-) TimerEvent: {}
+[1.309151] (-) TimerEvent: {}
+[1.409566] (-) TimerEvent: {}
+[1.510050] (-) TimerEvent: {}
+[1.610654] (-) TimerEvent: {}
+[1.712064] (-) TimerEvent: {}
+[1.812733] (-) TimerEvent: {}
+[1.913640] (-) TimerEvent: {}
+[2.014525] (-) TimerEvent: {}
+[2.115038] (-) TimerEvent: {}
+[2.215514] (-) TimerEvent: {}
+[2.315937] (-) TimerEvent: {}
+[2.418993] (-) TimerEvent: {}
+[2.519471] (-) TimerEvent: {}
+[2.623021] (-) TimerEvent: {}
+[2.725487] (-) TimerEvent: {}
+[2.828072] (-) TimerEvent: {}
+[2.929077] (-) TimerEvent: {}
+[3.030138] (-) TimerEvent: {}
+[3.133791] (-) TimerEvent: {}
+[3.234434] (-) TimerEvent: {}
+[3.335269] (-) TimerEvent: {}
+[3.435719] (-) TimerEvent: {}
+[3.536195] (-) TimerEvent: {}
+[3.638656] (-) TimerEvent: {}
+[3.739638] (-) TimerEvent: {}
+[3.840434] (-) TimerEvent: {}
+[3.941133] (-) TimerEvent: {}
+[4.049778] (-) TimerEvent: {}
+[4.109051] (slave) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/slave', 'build', '--build-base', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build', 'install', '--record', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log', '--single-version-externally-managed'], 'cwd': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sreeram3927', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sreeram3927', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.76.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1549', 'SYSTEMD_EXEC_PID': '1730', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4018', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sreeram3927', 'JOURNAL_STREAM': '8:31400', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sreeram3927', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sreeram3927/.local/bin:/opt/ros/humble/bin:/home/sreeram3927/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sreeram3927/dev/flutter/bin:/home/sreeram3927/dev/flutter/bin', 'SESSION_MANAGER': 'local/Sree-Dev:@/tmp/.ICE-unix/1697,unix/Sree-Dev:/tmp/.ICE-unix/1697', 'INVOCATION_ID': '1cd913cdca1d4f919139335b86cfca7c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.11GF11', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aebf0a258e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'Unity', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.184458] (-) TimerEvent: {}
+[4.186222] (network_chat) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/network_chat', 'build', '--build-base', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build', 'install', '--record', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/install.log', '--single-version-externally-managed'], 'cwd': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/network_chat', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sreeram3927', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sreeram3927', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.76.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1549', 'SYSTEMD_EXEC_PID': '1730', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4018', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sreeram3927', 'JOURNAL_STREAM': '8:31400', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sreeram3927', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sreeram3927/.local/bin:/opt/ros/humble/bin:/home/sreeram3927/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sreeram3927/dev/flutter/bin:/home/sreeram3927/dev/flutter/bin', 'SESSION_MANAGER': 'local/Sree-Dev:@/tmp/.ICE-unix/1697,unix/Sree-Dev:/tmp/.ICE-unix/1697', 'INVOCATION_ID': '1cd913cdca1d4f919139335b86cfca7c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.11GF11', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aebf0a258e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'Unity', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.193010] (serial_chat) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/serial_chat', 'build', '--build-base', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build', 'install', '--record', '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log', '--single-version-externally-managed'], 'cwd': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sreeram3927', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sreeram3927', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.76.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1549', 'SYSTEMD_EXEC_PID': '1730', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4018', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sreeram3927', 'JOURNAL_STREAM': '8:31400', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sreeram3927', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sreeram3927/.local/bin:/opt/ros/humble/bin:/home/sreeram3927/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sreeram3927/dev/flutter/bin:/home/sreeram3927/dev/flutter/bin', 'SESSION_MANAGER': 'local/Sree-Dev:@/tmp/.ICE-unix/1697,unix/Sree-Dev:/tmp/.ICE-unix/1697', 'INVOCATION_ID': '1cd913cdca1d4f919139335b86cfca7c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.11GF11', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-aebf0a258e.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'Unity', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.284619] (-) TimerEvent: {}
+[4.385831] (-) TimerEvent: {}
+[4.486609] (-) TimerEvent: {}
+[4.587075] (-) TimerEvent: {}
+[4.687556] (-) TimerEvent: {}
+[4.788042] (-) TimerEvent: {}
+[4.796152] (serial_chat) StdoutLine: {'line': b'running egg_info\n'}
+[4.800655] (serial_chat) StdoutLine: {'line': b'writing ../../build/serial_chat/serial_chat.egg-info/PKG-INFO\n'}
+[4.803016] (serial_chat) StdoutLine: {'line': b'writing dependency_links to ../../build/serial_chat/serial_chat.egg-info/dependency_links.txt\n'}
+[4.805019] (serial_chat) StdoutLine: {'line': b'writing entry points to ../../build/serial_chat/serial_chat.egg-info/entry_points.txt\n'}
+[4.806169] (serial_chat) StdoutLine: {'line': b'writing requirements to ../../build/serial_chat/serial_chat.egg-info/requires.txt\n'}
+[4.807293] (serial_chat) StdoutLine: {'line': b'writing top-level names to ../../build/serial_chat/serial_chat.egg-info/top_level.txt\n'}
+[4.817681] (serial_chat) StdoutLine: {'line': b"reading manifest file '../../build/serial_chat/serial_chat.egg-info/SOURCES.txt'\n"}
+[4.820926] (serial_chat) StdoutLine: {'line': b"writing manifest file '../../build/serial_chat/serial_chat.egg-info/SOURCES.txt'\n"}
+[4.821307] (serial_chat) StdoutLine: {'line': b'running build\n'}
+[4.821519] (serial_chat) StdoutLine: {'line': b'running build_py\n'}
+[4.821822] (serial_chat) StdoutLine: {'line': b'running install\n'}
+[4.836360] (serial_chat) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.837354] (serial_chat) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.838157] (serial_chat) StdoutLine: {'line': b'running install_lib\n'}
+[4.839036] (network_chat) StdoutLine: {'line': b'running egg_info\n'}
+[4.840841] (serial_chat) StdoutLine: {'line': b'running install_data\n'}
+[4.843509] (network_chat) StdoutLine: {'line': b'creating ../../build/network_chat/network_chat.egg-info\n'}
+[4.844381] (network_chat) StdoutLine: {'line': b'writing ../../build/network_chat/network_chat.egg-info/PKG-INFO\n'}
+[4.845299] (network_chat) StdoutLine: {'line': b'writing dependency_links to ../../build/network_chat/network_chat.egg-info/dependency_links.txt\n'}
+[4.846116] (network_chat) StdoutLine: {'line': b'writing entry points to ../../build/network_chat/network_chat.egg-info/entry_points.txt\n'}
+[4.846954] (network_chat) StdoutLine: {'line': b'writing requirements to ../../build/network_chat/network_chat.egg-info/requires.txt\n'}
+[4.848945] (network_chat) StdoutLine: {'line': b'writing top-level names to ../../build/network_chat/network_chat.egg-info/top_level.txt\n'}
+[4.849187] (serial_chat) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.849389] (network_chat) StdoutLine: {'line': b"writing manifest file '../../build/network_chat/network_chat.egg-info/SOURCES.txt'\n"}
+[4.849578] (serial_chat) StdoutLine: {'line': b"removing '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.849952] (network_chat) StdoutLine: {'line': b"reading manifest file '../../build/network_chat/network_chat.egg-info/SOURCES.txt'\n"}
+[4.850395] (network_chat) StdoutLine: {'line': b"writing manifest file '../../build/network_chat/network_chat.egg-info/SOURCES.txt'\n"}
+[4.850588] (network_chat) StdoutLine: {'line': b'running build\n'}
+[4.850938] (network_chat) StdoutLine: {'line': b'running build_py\n'}
+[4.851264] (network_chat) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build\n'}
+[4.851553] (network_chat) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build/lib\n'}
+[4.851791] (network_chat) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build/lib/network_chat\n'}
+[4.851987] (network_chat) StdoutLine: {'line': b'copying network_chat/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build/lib/network_chat\n'}
+[4.852305] (network_chat) StdoutLine: {'line': b'copying network_chat/send_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build/lib/network_chat\n'}
+[4.852713] (network_chat) StdoutLine: {'line': b'running install\n'}
+[4.852927] (network_chat) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.853149] (network_chat) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.853439] (serial_chat) StdoutLine: {'line': b'Copying ../../build/serial_chat/serial_chat.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info\n'}
+[4.853637] (network_chat) StdoutLine: {'line': b'running install_lib\n'}
+[4.855830] (network_chat) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages/network_chat\n'}
+[4.856241] (network_chat) StdoutLine: {'line': b'copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build/lib/network_chat/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages/network_chat\n'}
+[4.856539] (network_chat) StdoutLine: {'line': b'copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build/lib/network_chat/send_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages/network_chat\n'}
+[4.857565] (network_chat) StdoutLine: {'line': b'byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages/network_chat/__init__.py to __init__.cpython-310.pyc\n'}
+[4.858113] (network_chat) StdoutLine: {'line': b'byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages/network_chat/send_data.py to send_data.cpython-310.pyc\n'}
+[4.858843] (network_chat) StdoutLine: {'line': b'running install_data\n'}
+[4.860176] (network_chat) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/ament_index\n'}
+[4.860533] (network_chat) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/ament_index/resource_index\n'}
+[4.860763] (network_chat) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/ament_index/resource_index/packages\n'}
+[4.861052] (network_chat) StdoutLine: {'line': b'copying resource/network_chat -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/ament_index/resource_index/packages\n'}
+[4.861268] (network_chat) StdoutLine: {'line': b'copying package.xml -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat\n'}
+[4.861532] (network_chat) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.865213] (network_chat) StdoutLine: {'line': b'Copying ../../build/network_chat/network_chat.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages/network_chat-0.0.0-py3.10.egg-info\n'}
+[4.867425] (network_chat) StdoutLine: {'line': b'running install_scripts\n'}
+[4.880351] (serial_chat) StdoutLine: {'line': b'running install_scripts\n'}
+[4.888178] (-) TimerEvent: {}
+[4.932355] (network_chat) StdoutLine: {'line': b'Installing send_data script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/network_chat\n'}
+[4.933357] (network_chat) StdoutLine: {'line': b"writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/install.log'\n"}
+[4.942541] (slave) StdoutLine: {'line': b'running egg_info\n'}
+[4.945335] (slave) StdoutLine: {'line': b'creating ../../build/slave/slave.egg-info\n'}
+[4.947502] (slave) StdoutLine: {'line': b'writing ../../build/slave/slave.egg-info/PKG-INFO\n'}
+[4.948817] (slave) StdoutLine: {'line': b'writing dependency_links to ../../build/slave/slave.egg-info/dependency_links.txt\n'}
+[4.949717] (slave) StdoutLine: {'line': b'writing entry points to ../../build/slave/slave.egg-info/entry_points.txt\n'}
+[4.951346] (slave) StdoutLine: {'line': b'writing requirements to ../../build/slave/slave.egg-info/requires.txt\n'}
+[4.952554] (slave) StdoutLine: {'line': b'writing top-level names to ../../build/slave/slave.egg-info/top_level.txt\n'}
+[4.953613] (slave) StdoutLine: {'line': b"writing manifest file '../../build/slave/slave.egg-info/SOURCES.txt'\n"}
+[4.954436] (serial_chat) StdoutLine: {'line': b'Installing chat_node script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat\n'}
+[4.955335] (serial_chat) StdoutLine: {'line': b'Installing gui_node script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat\n'}
+[4.957024] (serial_chat) StdoutLine: {'line': b"writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log'\n"}
+[4.958273] (slave) StdoutLine: {'line': b"reading manifest file '../../build/slave/slave.egg-info/SOURCES.txt'\n"}
+[4.959353] (slave) StdoutLine: {'line': b"writing manifest file '../../build/slave/slave.egg-info/SOURCES.txt'\n"}
+[4.960212] (slave) StdoutLine: {'line': b'running build\n'}
+[4.961166] (slave) StdoutLine: {'line': b'running build_py\n'}
+[4.962041] (slave) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build\n'}
+[4.963767] (slave) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib\n'}
+[4.965309] (slave) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave\n'}
+[4.966180] (slave) StdoutLine: {'line': b'copying slave/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave\n'}
+[4.966918] (slave) StdoutLine: {'line': b'copying slave/get_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave\n'}
+[4.967629] (slave) StdoutLine: {'line': b'running install\n'}
+[4.968307] (slave) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.970664] (slave) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.971715] (slave) StdoutLine: {'line': b'running install_lib\n'}
+[4.972969] (slave) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave\n'}
+[4.973856] (slave) StdoutLine: {'line': b'copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave\n'}
+[4.974792] (slave) StdoutLine: {'line': b'copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave/get_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave\n'}
+[4.975675] (slave) StdoutLine: {'line': b'byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave/__init__.py to __init__.cpython-310.pyc\n'}
+[4.976496] (slave) StdoutLine: {'line': b'byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave/get_data.py to get_data.cpython-310.pyc\n'}
+[4.977357] (slave) StdoutLine: {'line': b'running install_data\n'}
+[4.981488] (slave) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index\n'}
+[4.983058] (slave) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index\n'}
+[4.984195] (slave) StdoutLine: {'line': b'creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index/packages\n'}
+[4.985149] (slave) StdoutLine: {'line': b'copying resource/slave -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index/packages\n'}
+[4.986232] (slave) StdoutLine: {'line': b'copying package.xml -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave\n'}
+[4.987709] (slave) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.988687] (-) TimerEvent: {}
+[4.989149] (slave) StdoutLine: {'line': b'Copying ../../build/slave/slave.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave-0.0.0-py3.10.egg-info\n'}
+[4.990108] (slave) StdoutLine: {'line': b'running install_scripts\n'}
+[5.018360] (network_chat) CommandEnded: {'returncode': 0}
+[5.053782] (slave) StdoutLine: {'line': b'Installing get_data script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/slave\n'}
+[5.054498] (slave) StdoutLine: {'line': b"writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log'\n"}
+[5.088813] (-) TimerEvent: {}
+[5.186307] (network_chat) JobEnded: {'identifier': 'network_chat', 'rc': 0}
+[5.191478] (-) TimerEvent: {}
+[5.197892] (serial_chat) CommandEnded: {'returncode': 0}
+[5.259410] (serial_chat) JobEnded: {'identifier': 'serial_chat', 'rc': 0}
+[5.271472] (slave) CommandEnded: {'returncode': 0}
+[5.291827] (-) TimerEvent: {}
+[5.293447] (slave) JobEnded: {'identifier': 'slave', 'rc': 0}
+[5.298935] (-) EventReactorShutdown: {}

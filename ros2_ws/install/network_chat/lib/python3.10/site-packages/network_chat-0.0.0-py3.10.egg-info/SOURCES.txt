@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/network_chat/network_chat.egg-info/PKG-INFO
+../../build/network_chat/network_chat.egg-info/SOURCES.txt
+../../build/network_chat/network_chat.egg-info/dependency_links.txt
+../../build/network_chat/network_chat.egg-info/entry_points.txt
+../../build/network_chat/network_chat.egg-info/requires.txt
+../../build/network_chat/network_chat.egg-info/top_level.txt
+../../build/network_chat/network_chat.egg-info/zip-safe
+network_chat/__init__.py
+network_chat/send_data.py
+resource/network_chat
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

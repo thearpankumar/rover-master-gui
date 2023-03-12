@@ -1,0 +1,3 @@
+[console_scripts]
+send_data = network_chat.send_data:main
+

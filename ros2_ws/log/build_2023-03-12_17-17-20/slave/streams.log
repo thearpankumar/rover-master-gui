@@ -1,0 +1,39 @@
+[3.981s] Invoking command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slave build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log --single-version-externally-managed
+[4.740s] running egg_info
+[4.744s] creating ../../build/slave/slave.egg-info
+[4.745s] writing ../../build/slave/slave.egg-info/PKG-INFO
+[4.746s] writing dependency_links to ../../build/slave/slave.egg-info/dependency_links.txt
+[4.748s] writing entry points to ../../build/slave/slave.egg-info/entry_points.txt
+[4.749s] writing requirements to ../../build/slave/slave.egg-info/requires.txt
+[4.750s] writing top-level names to ../../build/slave/slave.egg-info/top_level.txt
+[4.751s] writing manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+[4.756s] reading manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+[4.757s] writing manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+[4.758s] running build
+[4.759s] running build_py
+[4.760s] creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build
+[4.761s] creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib
+[4.763s] creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave
+[4.764s] copying slave/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave
+[4.764s] copying slave/get_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave
+[4.765s] running install
+[4.767s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.768s]   warnings.warn(
+[4.770s] running install_lib
+[4.770s] creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave
+[4.771s] copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave/__init__.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave
+[4.772s] copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build/lib/slave/get_data.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave
+[4.773s] byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave/__init__.py to __init__.cpython-310.pyc
+[4.774s] byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave/get_data.py to get_data.cpython-310.pyc
+[4.778s] running install_data
+[4.780s] creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index
+[4.781s] creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index
+[4.782s] creating /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index/packages
+[4.783s] copying resource/slave -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/ament_index/resource_index/packages
+[4.784s] copying package.xml -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave
+[4.785s] running install_egg_info
+[4.787s] Copying ../../build/slave/slave.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave-0.0.0-py3.10.egg-info
+[4.788s] running install_scripts
+[4.851s] Installing get_data script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/slave
+[4.852s] writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log'
+[5.069s] Invoked command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave' returned '0': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slave build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log --single-version-externally-managed
