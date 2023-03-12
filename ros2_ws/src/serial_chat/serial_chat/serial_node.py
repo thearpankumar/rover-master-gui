@@ -30,6 +30,7 @@ class SerialNode(Node):
             user_input = input('Enter a message to publish: ')
             msg = String()
             msg.data = user_input
+            serial.write(msg.data.encode())
             self.pub_sent.publish(msg)
         
     # def callback(self, msg):
@@ -53,6 +54,7 @@ def main(args=None):
     
     node = SerialNode()
     rclpy.spin(node)
+    node.get_user_input()
     # node.serial_thread.join()
     
     node.destroy_node()
