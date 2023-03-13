@@ -1,18 +1,25 @@
 import rclpy
 from std_msgs.msg import String
+from rclpy.node import Node
 
-def received_callback(msg):
-    print('Received: %s' % msg.data)
+class ChatNode(Node):
     
-def sent_callback(msg):
-    print('Sent: %s' % msg.data)
+    def __init__(self):
+        super.__init__('chat_screen')
+
+        def received_callback(msg):
+            print('Received: %s' % msg.data)
+        
+        def sent_callback(msg):
+            print('Sent: %s' % msg.data)
+        
+        self.received_messages = self.create_subscription(String, 'received_msgs', received_callback, 10)
+        self.sent_messages = self.create_subscription(String, 'sent_msgs', sent_callback, 10)
 
 def main(args=None) :
     rclpy.init(args=args)
     
-    node = rclpy.create_node('chat_screen')
-    received_messages = node.create_subscription(String, 'received_msgs', received_callback, 10)
-    sent_messages = node.create_subscription(String, 'sent_msgs', sent_callback, 10)
+    node = ChatNode()
     
     while rclpy.ok():
         rclpy.spin_once(node)
