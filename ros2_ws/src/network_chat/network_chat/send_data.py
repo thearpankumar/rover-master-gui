@@ -9,12 +9,21 @@ class NetworkNode(Node):
         
         self.publisher = self.create_publisher(String, 'commands', 10)
     
-    msg = String()
-    msg.data = 'Testing...'
-    
     def send(self):
         while rclpy.ok():
             self.publisher.publish('Hello World')
+            
+    def forward(self):
+        self.publisher.publish('forward')
+        
+    def backward(self):
+        self.publisher.publish('backward')
+        
+    def left(self):
+        self.publisher.publish('left')
+        
+    def right(self):
+        self.publisher.publish('right')
             
     
 def main(args=None):
