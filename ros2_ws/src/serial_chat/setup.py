@@ -22,7 +22,6 @@ setup(
         'console_scripts': [
             'serial_node = serial_chat.serial_node:main',
             'chat_screen = serial_chat.chat_screen:main',
-            'gui_node = serial_chat.gui_node:main'
         ],
     },
 )
