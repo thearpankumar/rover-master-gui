@@ -1,0 +1,28 @@
+[1.920s] Invoking command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_chat build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log --single-version-externally-managed
+[2.430s] running egg_info
+[2.433s] writing ../../build/serial_chat/serial_chat.egg-info/PKG-INFO
+[2.433s] writing dependency_links to ../../build/serial_chat/serial_chat.egg-info/dependency_links.txt
+[2.434s] writing entry points to ../../build/serial_chat/serial_chat.egg-info/entry_points.txt
+[2.434s] writing requirements to ../../build/serial_chat/serial_chat.egg-info/requires.txt
+[2.435s] writing top-level names to ../../build/serial_chat/serial_chat.egg-info/top_level.txt
+[2.438s] reading manifest file '../../build/serial_chat/serial_chat.egg-info/SOURCES.txt'
+[2.440s] writing manifest file '../../build/serial_chat/serial_chat.egg-info/SOURCES.txt'
+[2.440s] running build
+[2.440s] running build_py
+[2.441s] copying serial_chat/serial_node.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build/lib/serial_chat
+[2.442s] running install
+[2.442s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.442s]   warnings.warn(
+[2.443s] running install_lib
+[2.444s] copying /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build/lib/serial_chat/serial_node.py -> /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat
+[2.446s] byte-compiling /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat/serial_node.py to serial_node.cpython-310.pyc
+[2.447s] running install_data
+[2.448s] running install_egg_info
+[2.452s] removing '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info' (and everything under it)
+[2.453s] Copying ../../build/serial_chat/serial_chat.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages/serial_chat-0.0.0-py3.10.egg-info
+[2.454s] running install_scripts
+[2.500s] Installing chat_screen script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat
+[2.501s] Installing gui_node script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat
+[2.501s] Installing serial_node script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/serial_chat
+[2.502s] writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log'
+[2.567s] Invoked command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat' returned '0': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_chat build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log --single-version-externally-managed

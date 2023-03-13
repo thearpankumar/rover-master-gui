@@ -1,20 +1,34 @@
 import rclpy
 from std_msgs.msg import String
+from rclpy.node import Node
 
-def main(args=None):
-    rclpy.init(args=args)
-
-    node = rclpy.create_node('commander')
-    publisher = node.create_publisher(String, 'commands', 10)
+class NetworkNode(Node):
     
-    msg = String()
-    msg.data = 'Testing...'
+    def __init__(self):
+        super.__init__('network_data')
+        
+        self.publisher = self.create_publisher(String, 'commands', 10)
     
-    while rclpy.ok():
-        publisher.publish(msg)
-        node.get_logger().info('Publishing: "%s"' % msg.data)
-        rclpy.spin_once(node)
+    def send(self):
+        while rclpy.ok():
+            self.publisher.publish('Hello World')
             
+    def forward(self):
+        self.publisher.publish('forward')
+        
+    def backward(self):
+        self.publisher.publish('backward')
+        
+    def left(self):
+        self.publisher.publish('left')
+        
+    def right(self):
+        self.publisher.publish('right')
+            
+    
+def main(args=None):
+    rclpy.init(args)
+    node = NetworkNode()
     node.destroy_node()
     rclpy.shutdown()
 
