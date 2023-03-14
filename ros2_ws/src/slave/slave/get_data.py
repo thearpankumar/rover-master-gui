@@ -35,7 +35,9 @@ class Rover(Node):
             self.cmd(msg)
         self.stop()
     
-    def cmd(self,data):
+    def cmd(self,str):
+        data = String()
+        data = str.data
         if data == "forward":
             self.forward()
         elif data == "backward":
@@ -45,7 +47,7 @@ class Rover(Node):
         elif data == "right":
             self.right()
         else:
-            print("invalid")
+            print("invalid = ", data)
             
     def forward(self):
         
@@ -177,7 +179,13 @@ def main(args=None):
 
     node = Rover()
     # subscription = node.create_subscription(String, 'commands', message_callback, 10)
-    node.user_input()
+    
+    request = input("Are you gonna control it (y/n) : ")
+    if request == 'y' or request == 'Y' :
+        node.user_input()
+    else:
+        while rclpy.ok:
+            rclpy.spin_once(node)
     node.destroy_node()
     rclpy.shutdown()
 
