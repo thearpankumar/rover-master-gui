@@ -100,6 +100,66 @@ class Rover(Node):
             output = bytes([saber2Motor2])
             saber2.write(output)
             print("saber2Motor2peed = ", saber2Motor2, " = ", output)
+            
+        def left():
+            
+            saber1Motor1 = 127
+            # if saber1Motor1 > 127:
+            #     saber1Motor1 = 127
+            output = bytes([saber1Motor1])
+            saber1.write(output)
+            print("saber1Motor1 speed = ", saber1Motor1, " = ", output)
+            
+            saber1Motor2 = 255
+            # if saber1Motor2 > 255:
+            #     saber1Motor2 = 255
+            output = bytes([saber1Motor2])
+            saber1.write(output)
+            print("saber1Motor2 speed = ", saber1Motor2, " = ", output)
+            
+            saber2Motor1 = 1
+            # if saber2Motor1 > 127:
+            #     saber2Motor1 = 127
+            output = bytes([saber2Motor1])
+            saber2.write(output)
+            print("saber2Motor1 speed = ", saber2Motor1, " = ", output)
+            
+            saber2Motor2 = 128
+            # if saber2Motor2 > 255:
+            #     saber2Motor2 = 255
+            output = bytes([saber2Motor2])
+            saber2.write(output)
+            print("saber2Motor2peed = ", saber2Motor2, " = ", output)
+            
+        def left():
+            
+            saber1Motor1 = 1
+            # if saber1Motor1 > 127:
+            #     saber1Motor1 = 127
+            output = bytes([saber1Motor1])
+            saber1.write(output)
+            print("saber1Motor1 speed = ", saber1Motor1, " = ", output)
+            
+            saber1Motor2 = 128
+            # if saber1Motor2 > 255:
+            #     saber1Motor2 = 255
+            output = bytes([saber1Motor2])
+            saber1.write(output)
+            print("saber1Motor2 speed = ", saber1Motor2, " = ", output)
+            
+            saber2Motor1 = 127
+            # if saber2Motor1 > 127:
+            #     saber2Motor1 = 127
+            output = bytes([saber2Motor1])
+            saber2.write(output)
+            print("saber2Motor1 speed = ", saber2Motor1, " = ", output)
+            
+            saber2Motor2 = 255
+            # if saber2Motor2 > 255:
+            #     saber2Motor2 = 255
+            output = bytes([saber2Motor2])
+            saber2.write(output)
+            print("saber2Motor2peed = ", saber2Motor2, " = ", output)
                 
         def stop():
             saber1.write(bytes([0]))
