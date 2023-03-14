@@ -38,14 +38,16 @@ class Rover(Node):
     def cmd(self,str):
         data = String()
         data = str.data
-        if data == "forward":
+        if data in "Ww":
             self.forward()
-        elif data == "backward":
+        elif data in "Ss":
             self.backward()
-        elif data == "left":
+        elif data in "Aa":
             self.left()
-        elif data == "right":
+        elif data in "Dd":
             self.right()
+        elif data in 'Xx':
+            self.stop()
         else:
             print("invalid = ", data)
             

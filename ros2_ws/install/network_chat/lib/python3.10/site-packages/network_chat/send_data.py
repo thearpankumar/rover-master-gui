@@ -11,33 +11,41 @@ class NetworkNode(Node):
     
     def send(self):
         while rclpy.ok():
-            msg = input("Enter directions/stop: ")
-            self.cmd(msg)
-            self.publisher.publish('Hello World')
+            msg = input("Enter directions(W,A,S,D)/stop(X): ")
+            # self.cmd(msg)
+            control = String()
+            control.data = msg
+            if msg in "WwAaSsDdXx":
+                self.publisher.publish(control)
             
-    def cmd(self,data):
-        if data == "forward":
-            self.forward()
-        elif data == "backard":
-            self.backward()
-        elif data == "left":
-            self.left()
-        elif data == "right":
-            self.right()
-        else:
-            print("invalid")
+    # def cmd(self,data):
+    #     if data == "forward":
+    #         self.forward()
+    #     elif data == "backard":
+    #         self.backward()
+    #     elif data == "left":
+    #         self.left()
+    #     elif data == "right":
+    #         self.right()
+    #     elif data == "stop":
+    #         self.stop()
+    #     else:
+    #         print("invalid")
             
-    def forward(self):
-        self.publisher.publish('forward')
+    # def forward(self):
+    #     self.publisher.publish('forward')
         
-    def backward(self):
-        self.publisher.publish('backward')
+    # def backward(self):
+    #     self.publisher.publish('backward')
         
-    def left(self):
-        self.publisher.publish('left')
+    # def left(self):
+    #     self.publisher.publish('left')
         
-    def right(self):
-        self.publisher.publish('right')
+    # def right(self):
+    #     self.publisher.publish('right')
+        
+    # def stop(self):
+    #     self.publisher.publish('stop')
             
     
 def main(args=None):
