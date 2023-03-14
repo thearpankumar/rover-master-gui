@@ -1,0 +1,17 @@
+[0.475s] Invoking command in '/home/arpan/rudra_tasks/ros-master/build/rover_master': PYTHONPATH=/home/arpan/rudra_tasks/ros-master/build/rover_master/prefix_override:/home/arpan/rudra_tasks/ros-master/install/rover_master/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/arpan/rudra_tasks/ros-master/build/rover_master/build --no-deps install_data
+[0.682s] running develop
+[0.830s] running egg_info
+[0.830s] writing rover_master.egg-info/PKG-INFO
+[0.830s] writing dependency_links to rover_master.egg-info/dependency_links.txt
+[0.830s] writing entry points to rover_master.egg-info/entry_points.txt
+[0.830s] writing requirements to rover_master.egg-info/requires.txt
+[0.830s] writing top-level names to rover_master.egg-info/top_level.txt
+[0.831s] reading manifest file 'rover_master.egg-info/SOURCES.txt'
+[0.832s] writing manifest file 'rover_master.egg-info/SOURCES.txt'
+[0.833s] running build_ext
+[0.833s] Creating /home/arpan/rudra_tasks/ros-master/install/rover_master/lib/python3.10/site-packages/rover-master.egg-link (link to .)
+[0.833s] Installing test_node script to /home/arpan/rudra_tasks/ros-master/install/rover_master/lib/rover_master
+[0.833s] 
+[0.833s] Installed /home/arpan/rudra_tasks/ros-master/build/rover_master
+[0.834s] running install_data
+[0.859s] Invoked command in '/home/arpan/rudra_tasks/ros-master/build/rover_master' returned '0': PYTHONPATH=/home/arpan/rudra_tasks/ros-master/build/rover_master/prefix_override:/home/arpan/rudra_tasks/ros-master/install/rover_master/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/arpan/rudra_tasks/ros-master/build/rover_master/build --no-deps install_data

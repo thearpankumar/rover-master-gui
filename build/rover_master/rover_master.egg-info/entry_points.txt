@@ -1,0 +1,4 @@
+[console_scripts]
+control_rover = rover_master.main:main
+test_node = rover_master.connection_test:main
+

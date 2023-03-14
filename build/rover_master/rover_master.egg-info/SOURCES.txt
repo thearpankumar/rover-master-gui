@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/rover_master
+rover_master/__init__.py
+rover_master/connection_test.py
+rover_master/main.py
+rover_master.egg-info/PKG-INFO
+rover_master.egg-info/SOURCES.txt
+rover_master.egg-info/dependency_links.txt
+rover_master.egg-info/entry_points.txt
+rover_master.egg-info/requires.txt
+rover_master.egg-info/top_level.txt
+rover_master.egg-info/zip-safe
