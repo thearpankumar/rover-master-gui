@@ -1,0 +1,23 @@
+[2.554s] Invoking command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slave build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log --single-version-externally-managed
+[3.294s] running egg_info
+[3.297s] writing ../../build/slave/slave.egg-info/PKG-INFO
+[3.298s] writing dependency_links to ../../build/slave/slave.egg-info/dependency_links.txt
+[3.299s] writing entry points to ../../build/slave/slave.egg-info/entry_points.txt
+[3.300s] writing requirements to ../../build/slave/slave.egg-info/requires.txt
+[3.301s] writing top-level names to ../../build/slave/slave.egg-info/top_level.txt
+[3.306s] reading manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+[3.310s] writing manifest file '../../build/slave/slave.egg-info/SOURCES.txt'
+[3.311s] running build
+[3.313s] running build_py
+[3.321s] running install
+[3.341s] running install_lib
+[3.342s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.343s]   warnings.warn(
+[3.344s] running install_data
+[3.345s] running install_egg_info
+[3.346s] removing '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave-0.0.0-py3.10.egg-info' (and everything under it)
+[3.347s] Copying ../../build/slave/slave.egg-info to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages/slave-0.0.0-py3.10.egg-info
+[3.348s] running install_scripts
+[3.391s] Installing get_data script to /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/slave
+[3.392s] writing list of installed files to '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log'
+[3.480s] Invoked command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave' returned '0': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slave build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log --single-version-externally-managed

@@ -6,15 +6,15 @@ import serial
 class Rover(Node):
     
     def __init__(self):
-        super.__init__('rover_code')
+        super().__init__('rover_code')
         
-        port1 = '/dev/ttyUSB0'
-        baudrate1 = 9600
-        port2 = '/dev/ttyUSB1'
-        baudrate2 = 9600
+        # port1 = '/dev/ttyUSB0'
+        # baudrate1 = 9600
+        # port2 = '/dev/ttyUSB1'
+        # baudrate2 = 9600
         
-        self.saber1 = serial.Serial(port=port1, baudrate=baudrate1)
-        self.saber2 = serial.Serial(port=port2, baudrate=baudrate2)
+        # self.saber1 = serial.Serial(port=port1, baudrate=baudrate1)
+        # self.saber2 = serial.Serial(port=port2, baudrate=baudrate2)
         
         self.saber1Motor1 = 64
         self.saber1Motor2 = 192
@@ -38,7 +38,7 @@ class Rover(Node):
     def cmd(self,data):
         if data == "forward":
             self.forward()
-        elif data == "backard":
+        elif data == "backward":
             self.backward()
         elif data == "left":
             self.left()
@@ -53,29 +53,29 @@ class Rover(Node):
         if self.saber1Motor1 > 127:
             self.saber1Motor1 = 127
         output = bytes([self.saber1Motor1])
-        self.saber1.write(output)
-        print("self.saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
+        # self.saber1.write(output)
+        print("saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
         
-        saber1Motor2 += 5
-        if saber1Motor2 > 255:
-            saber1Motor2 = 255
-        output = bytes([saber1Motor2])
-        self.saber1.write(output)
-        print("saber1Motor2 speed = ", saber1Motor2, " = ", output)
+        self.saber1Motor2 += 5
+        if self.saber1Motor2 > 255:
+            self.saber1Motor2 = 255
+        output = bytes([self.saber1Motor2])
+        # self.saber1.write(output)
+        print("saber1Motor2 speed = ", self.saber1Motor2, " = ", output)
         
         self.saber2Motor1 += 5
         if self.saber2Motor1 > 127:
             self.saber2Motor1 = 127
         output = bytes([self.saber2Motor1])
-        self.saber2.write(output)
-        print("self.saber2Motor1 speed = ", self.saber2Motor1, " = ", output)
+        # self.saber2.write(output)
+        print("saber2Motor1 speed = ", self.saber2Motor1, " = ", output)
         
         self.saber2Motor2 += 5
         if self.saber2Motor2 > 255:
             self.saber2Motor2 = 255
         output = bytes([self.saber2Motor2])
-        self.saber2.write(output)
-        print("self.saber2Motor2peed = ", self.saber2Motor2, " = ", output)
+        # self.saber2.write(output)
+        print("saber2Motor2peed = ", self.saber2Motor2, " = ", output)
         
     def backward(self):
         
@@ -83,29 +83,29 @@ class Rover(Node):
         if self.saber1Motor1 < 1:
             self.saber1Motor1 = 1
         output = bytes([self.saber1Motor1])
-        self.saber1.write(output)
-        print("self.saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
+        # self.saber1.write(output)
+        print("saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
         
-        saber1Motor2 -= 5
-        if saber1Motor2 < 128:
-            saber1Motor2 = 128
-        output = bytes([saber1Motor2])
-        self.saber1.write(output)
-        print("saber1Motor2 speed = ", saber1Motor2, " = ", output)
+        self.saber1Motor2 -= 5
+        if self.saber1Motor2 < 128:
+            self.saber1Motor2 = 128
+        output = bytes([self.saber1Motor2])
+        # self.saber1.write(output)
+        print("saber1Motor2 speed = ", self.saber1Motor2, " = ", output)
         
-        saber2Motor1 -= 5
-        if saber2Motor1 < 1:
-            saber2Motor1 = 1
-        output = bytes([saber2Motor1])
-        self.saber2.write(output)
-        print("saber2Motor1 speed = ", saber2Motor1, " = ", output)
+        self.saber2Motor1 -= 5
+        if self.saber2Motor1 < 1:
+            self.saber2Motor1 = 1
+        output = bytes([self.saber2Motor1])
+        # self.saber2.write(output)
+        print("saber2Motor1 speed = ", self.saber2Motor1, " = ", output)
         
-        saber2Motor2 -= 5
-        if saber2Motor2 < 128:
-            saber2Motor2 = 128
-        output = bytes([saber2Motor2])
-        self.saber2.write(output)
-        print("saber2Motor2peed = ", saber2Motor2, " = ", output)
+        self.saber2Motor2 -= 5
+        if self.saber2Motor2 < 128:
+            self.saber2Motor2 = 128
+        output = bytes([self.saber2Motor2])
+        # self.saber2.write(output)
+        print("saber2Motor2peed = ", self.saber2Motor2, " = ", output)
         
     def left(self):
         
@@ -113,29 +113,29 @@ class Rover(Node):
         # if self.saber1Motor1 > 127:
         #     self.saber1Motor1 = 127
         output = bytes([self.saber1Motor1])
-        self.saber1.write(output)
-        print("self.saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
+        # self.saber1.write(output)
+        print("saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
         
-        saber1Motor2 = 255
-        # if saber1Motor2 > 255:
-        #     saber1Motor2 = 255
-        output = bytes([saber1Motor2])
-        self.saber1.write(output)
-        print("saber1Motor2 speed = ", saber1Motor2, " = ", output)
+        self.saber1Motor2 = 255
+        # if self.saber1Motor2 > 255:
+        #     self.saber1Motor2 = 255
+        output = bytes([self.saber1Motor2])
+        # self.saber1.write(output)
+        print("saber1Motor2 speed = ", self.saber1Motor2, " = ", output)
         
-        saber2Motor1 = 1
-        # if saber2Motor1 > 127:
-        #     saber2Motor1 = 127
-        output = bytes([saber2Motor1])
-        self.saber2.write(output)
-        print("saber2Motor1 speed = ", saber2Motor1, " = ", output)
+        self.saber2Motor1 = 1
+        # if self.saber2Motor1 > 127:
+        #     self.saber2Motor1 = 127
+        output = bytes([self.saber2Motor1])
+        # self.saber2.write(output)
+        print("saber2Motor1 speed = ", self.saber2Motor1, " = ", output)
         
-        saber2Motor2 = 128
-        # if saber2Motor2 > 255:
-        #     saber2Motor2 = 255
-        output = bytes([saber2Motor2])
-        self.saber2.write(output)
-        print("saber2Motor2peed = ", saber2Motor2, " = ", output)
+        self.saber2Motor2 = 128
+        # if self.saber2Motor2 > 255:
+        #     self.saber2Motor2 = 255
+        output = bytes([self.saber2Motor2])
+        # self.saber2.write(output)
+        print("saber2Motor2peed = ", self.saber2Motor2, " = ", output)
         
     def right(self):
         
@@ -143,41 +143,41 @@ class Rover(Node):
         # if self.saber1Motor1 > 127:
         #     self.saber1Motor1 = 127
         output = bytes([self.saber1Motor1])
-        self.saber1.write(output)
-        print("self.saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
+        # self.saber1.write(output)
+        print("saber1Motor1 speed = ", self.saber1Motor1, " = ", output)
         
-        saber1Motor2 = 128
-        # if saber1Motor2 > 255:
-        #     saber1Motor2 = 255
-        output = bytes([saber1Motor2])
-        self.saber1.write(output)
-        print("saber1Motor2 speed = ", saber1Motor2, " = ", output)
+        self.saber1Motor2 = 128
+        # if self.saber1Motor2 > 255:
+        #     self.saber1Motor2 = 255
+        output = bytes([self.saber1Motor2])
+        # self.saber1.write(output)
+        print("saber1Motor2 speed = ", self.saber1Motor2, " = ", output)
         
-        saber2Motor1 = 127
-        # if saber2Motor1 > 127:
-        #     saber2Motor1 = 127
-        output = bytes([saber2Motor1])
-        self.saber2.write(output)
-        print("saber2Motor1 speed = ", saber2Motor1, " = ", output)
+        self.saber2Motor1 = 127
+        # if self.saber2Motor1 > 127:
+        #     self.saber2Motor1 = 127
+        output = bytes([self.saber2Motor1])
+        # self.saber2.write(output)
+        print("saber2Motor1 speed = ", self.saber2Motor1, " = ", output)
         
-        saber2Motor2 = 255
-        # if saber2Motor2 > 255:
-        #     saber2Motor2 = 255
-        output = bytes([saber2Motor2])
-        self.saber2.write(output)
-        print("saber2Motor2peed = ", saber2Motor2, " = ", output)
+        self.saber2Motor2 = 255
+        # if self.saber2Motor2 > 255:
+        #     self.saber2Motor2 = 255
+        output = bytes([self.saber2Motor2])
+        # self.saber2.write(output)
+        print("saber2Motor2peed = ", self.saber2Motor2, " = ", output)
             
     def stop(self):
-        self.saber1.write(bytes([0]))
-        self.saber2.write(bytes([0]))
+        # self.saber1.write(bytes([0]))
+        # self.saber2.write(bytes([0]))
+        print("stop")
                 
 def main(args=None):
-    rclpy.init(args=args)
+    rclpy.init()
 
     node = Rover()
     # subscription = node.create_subscription(String, 'commands', message_callback, 10)
-    Rover.user_input()
-    
+    node.user_input()
     node.destroy_node()
     rclpy.shutdown()
 

@@ -11,8 +11,6 @@ setup.py
 resource/serial_chat
 serial_chat/__init__.py
 serial_chat/chat_screen.py
-serial_chat/gui.py
-serial_chat/gui_node.py
 serial_chat/serial_node.py
 test/test_copyright.py
 test/test_flake8.py

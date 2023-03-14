@@ -1,0 +1,226 @@
+[0.557s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.557s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc3655dc8e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc365de2830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc365de2830>>)
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.611s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/network_chat) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package 'src/network_chat' with type 'ros.ament_python' and name 'network_chat'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_chat) by extension 'ros'
+[0.648s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_chat' with type 'ros.ament_python' and name 'serial_chat'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/slave) by extension 'ros'
+[0.651s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slave' with type 'ros.ament_python' and name 'slave'
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.697s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'cmake_target' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'cmake_clean_first' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'cmake_force_configure' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'ament_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'network_chat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.805s] DEBUG:colcon.colcon_core.verb:Building package 'network_chat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat', 'merge_install': False, 'path': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/network_chat', 'symlink_install': False, 'test_result_base': None}
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'cmake_args' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'cmake_target' from command line to 'None'
+[0.806s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'cmake_clean_first' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'cmake_force_configure' from command line to 'False'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'ament_cmake_args' from command line to 'None'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.807s] Level 5:colcon.colcon_core.verb:set package 'serial_chat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.807s] DEBUG:colcon.colcon_core.verb:Building package 'serial_chat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat', 'merge_install': False, 'path': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat', 'symlink_install': False, 'test_result_base': None}
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'cmake_target' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'cmake_clean_cache' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'cmake_clean_first' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'cmake_force_configure' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'ament_cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'catkin_cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'slave' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.809s] DEBUG:colcon.colcon_core.verb:Building package 'slave' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave', 'merge_install': False, 'path': '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave', 'symlink_install': False, 'test_result_base': None}
+[0.811s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.816s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/network_chat' with build type 'ament_python'
+[0.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('network_chat', 'ament_prefix_path')
+[0.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/hook/ament_prefix_path.ps1'
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/hook/ament_prefix_path.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/hook/ament_prefix_path.sh'
+[0.838s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.838s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat' with build type 'ament_python'
+[0.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_chat', 'ament_prefix_path')
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/hook/ament_prefix_path.ps1'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/hook/ament_prefix_path.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/hook/ament_prefix_path.sh'
+[0.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.869s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave' with build type 'ament_python'
+[0.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('slave', 'ament_prefix_path')
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/hook/ament_prefix_path.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/hook/ament_prefix_path.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/hook/ament_prefix_path.sh'
+[0.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.505s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/network_chat'
+[1.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.039s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat'
+[2.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.534s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave'
+[2.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_chat build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log --single-version-externally-managed
+[3.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slave build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log --single-version-externally-managed
+[3.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/network_chat': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/network_chat build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/install.log --single-version-externally-managed
+[4.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/serial_chat' returned '0': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/serial_chat build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/serial_chat/install.log --single-version-externally-managed
+[4.233s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat' for CMake module files
+[4.235s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat' for CMake config files
+[4.237s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib'
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/bin'
+[4.238s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/pkgconfig/serial_chat.pc'
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/lib/python3.10/site-packages'
+[4.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_chat', 'pythonpath')
+[4.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/hook/pythonpath.ps1'
+[4.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/hook/pythonpath.dsv'
+[4.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/hook/pythonpath.sh'
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/bin'
+[4.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_chat)
+[4.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/package.ps1'
+[4.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/package.dsv'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/package.sh'
+[4.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/package.bash'
+[4.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/serial_chat/package.zsh'
+[4.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/serial_chat/share/colcon-core/packages/serial_chat)
+[4.310s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat' for CMake module files
+[4.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/network_chat' returned '0': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/network_chat build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/network_chat/install.log --single-version-externally-managed
+[4.312s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat' for CMake config files
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib'
+[4.315s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/bin'
+[4.316s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/pkgconfig/network_chat.pc'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/lib/python3.10/site-packages'
+[4.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('network_chat', 'pythonpath')
+[4.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/hook/pythonpath.ps1'
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/hook/pythonpath.dsv'
+[4.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/hook/pythonpath.sh'
+[4.326s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/bin'
+[4.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(network_chat)
+[4.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/package.ps1'
+[4.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/package.dsv'
+[4.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/package.sh'
+[4.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/package.bash'
+[4.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/network_chat/package.zsh'
+[4.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/network_chat/share/colcon-core/packages/network_chat)
+[4.461s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave' for CMake module files
+[4.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/src/slave' returned '0': PYTHONPATH=/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/prefix_override:/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slave build --build-base /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/build install --record /home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/build/slave/install.log --single-version-externally-managed
+[4.463s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave' for CMake config files
+[4.464s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib'
+[4.465s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/bin'
+[4.465s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/pkgconfig/slave.pc'
+[4.466s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/lib/python3.10/site-packages'
+[4.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('slave', 'pythonpath')
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/hook/pythonpath.ps1'
+[4.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/hook/pythonpath.dsv'
+[4.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/hook/pythonpath.sh'
+[4.473s] Level 1:colcon.colcon_core.environment:checking '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/bin'
+[4.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slave)
+[4.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/package.ps1'
+[4.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/package.dsv'
+[4.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/package.sh'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/package.bash'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/slave/package.zsh'
+[4.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/slave/share/colcon-core/packages/slave)
+[4.482s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.484s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.497s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.524s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/local_setup.ps1'
+[4.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/_local_setup_util_ps1.py'
+[4.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/setup.ps1'
+[4.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/local_setup.sh'
+[4.540s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/_local_setup_util_sh.py'
+[4.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/setup.sh'
+[4.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/local_setup.bash'
+[4.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/setup.bash'
+[4.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/local_setup.zsh'
+[4.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeram3927/rudra_training/rover-master-gui/ros2_ws/install/setup.zsh'
