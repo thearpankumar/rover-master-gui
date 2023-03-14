@@ -1,0 +1,20 @@
+[0.489s] Invoking command in '/home/arpan/rudra_tasks/ros-slave/src/rover_slave': PYTHONPATH=/home/arpan/rudra_tasks/ros-slave/build/rover_slave/prefix_override:/home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_slave build --build-base /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build install --record /home/arpan/rudra_tasks/ros-slave/build/rover_slave/install.log --single-version-externally-managed
+[0.680s] running egg_info
+[0.681s] writing ../../build/rover_slave/rover_slave.egg-info/PKG-INFO
+[0.681s] writing dependency_links to ../../build/rover_slave/rover_slave.egg-info/dependency_links.txt
+[0.681s] writing entry points to ../../build/rover_slave/rover_slave.egg-info/entry_points.txt
+[0.681s] writing requirements to ../../build/rover_slave/rover_slave.egg-info/requires.txt
+[0.681s] writing top-level names to ../../build/rover_slave/rover_slave.egg-info/top_level.txt
+[0.682s] reading manifest file '../../build/rover_slave/rover_slave.egg-info/SOURCES.txt'
+[0.682s] writing manifest file '../../build/rover_slave/rover_slave.egg-info/SOURCES.txt'
+[0.683s] running build
+[0.683s] running build_py
+[0.683s] running install
+[0.683s] running install_lib
+[0.683s] running install_data
+[0.684s] running install_egg_info
+[0.685s] removing '/home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover_slave-0.0.0-py3.10.egg-info' (and everything under it)
+[0.685s] Copying ../../build/rover_slave/rover_slave.egg-info to /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover_slave-0.0.0-py3.10.egg-info
+[0.685s] running install_scripts
+[0.698s] writing list of installed files to '/home/arpan/rudra_tasks/ros-slave/build/rover_slave/install.log'
+[0.718s] Invoked command in '/home/arpan/rudra_tasks/ros-slave/src/rover_slave' returned '0': PYTHONPATH=/home/arpan/rudra_tasks/ros-slave/build/rover_slave/prefix_override:/home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_slave build --build-base /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build install --record /home/arpan/rudra_tasks/ros-slave/build/rover_slave/install.log --single-version-externally-managed

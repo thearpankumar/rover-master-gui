@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing rover_slave.egg-info/PKG-INFO
+writing dependency_links to rover_slave.egg-info/dependency_links.txt
+writing entry points to rover_slave.egg-info/entry_points.txt
+writing requirements to rover_slave.egg-info/requires.txt
+writing top-level names to rover_slave.egg-info/top_level.txt
+reading manifest file 'rover_slave.egg-info/SOURCES.txt'
+writing manifest file 'rover_slave.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover-slave.egg-link (link to .)
+Installing reciver script to /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/rover_slave
+Installing test_node script to /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/rover_slave
+
+Installed /home/arpan/rudra_tasks/ros-slave/build/rover_slave
+running install_data

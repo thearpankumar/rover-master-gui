@@ -1,0 +1,18 @@
+[0.468s] Invoking command in '/home/arpan/rudra_tasks/ros-slave/build/rover_slave': PYTHONPATH=/home/arpan/rudra_tasks/ros-slave/build/rover_slave/prefix_override:/home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build --no-deps install_data
+[0.658s] running develop
+[0.800s] running egg_info
+[0.801s] writing rover_slave.egg-info/PKG-INFO
+[0.801s] writing dependency_links to rover_slave.egg-info/dependency_links.txt
+[0.801s] writing entry points to rover_slave.egg-info/entry_points.txt
+[0.801s] writing requirements to rover_slave.egg-info/requires.txt
+[0.801s] writing top-level names to rover_slave.egg-info/top_level.txt
+[0.802s] reading manifest file 'rover_slave.egg-info/SOURCES.txt'
+[0.803s] writing manifest file 'rover_slave.egg-info/SOURCES.txt'
+[0.803s] running build_ext
+[0.804s] Creating /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover-slave.egg-link (link to .)
+[0.804s] Installing reciver script to /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/rover_slave
+[0.804s] Installing test_node script to /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/rover_slave
+[0.805s] 
+[0.805s] Installed /home/arpan/rudra_tasks/ros-slave/build/rover_slave
+[0.805s] running install_data
+[0.830s] Invoked command in '/home/arpan/rudra_tasks/ros-slave/build/rover_slave' returned '0': PYTHONPATH=/home/arpan/rudra_tasks/ros-slave/build/rover_slave/prefix_override:/home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build --no-deps install_data

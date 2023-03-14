@@ -1,0 +1,4 @@
+[console_scripts]
+reciver = rover_slave.main:main
+test_node = rover_slave.connection_test:main
+

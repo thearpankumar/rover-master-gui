@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/rover_slave/rover_slave.egg-info
+writing ../../build/rover_slave/rover_slave.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_slave/rover_slave.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_slave/rover_slave.egg-info/entry_points.txt
+writing requirements to ../../build/rover_slave/rover_slave.egg-info/requires.txt
+writing top-level names to ../../build/rover_slave/rover_slave.egg-info/top_level.txt
+writing manifest file '../../build/rover_slave/rover_slave.egg-info/SOURCES.txt'
+reading manifest file '../../build/rover_slave/rover_slave.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_slave/rover_slave.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build
+creating /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build/lib
+creating /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build/lib/rover_slave
+copying rover_slave/__init__.py -> /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build/lib/rover_slave
+running install
+running install_lib
+creating /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover_slave
+copying /home/arpan/rudra_tasks/ros-slave/build/rover_slave/build/lib/rover_slave/__init__.py -> /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover_slave
+byte-compiling /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover_slave/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/arpan/rudra_tasks/ros-slave/install/rover_slave/share/ament_index
+creating /home/arpan/rudra_tasks/ros-slave/install/rover_slave/share/ament_index/resource_index
+creating /home/arpan/rudra_tasks/ros-slave/install/rover_slave/share/ament_index/resource_index/packages
+copying resource/rover_slave -> /home/arpan/rudra_tasks/ros-slave/install/rover_slave/share/ament_index/resource_index/packages
+copying package.xml -> /home/arpan/rudra_tasks/ros-slave/install/rover_slave/share/rover_slave
+running install_egg_info
+Copying ../../build/rover_slave/rover_slave.egg-info to /home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages/rover_slave-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/arpan/rudra_tasks/ros-slave/build/rover_slave/install.log'
