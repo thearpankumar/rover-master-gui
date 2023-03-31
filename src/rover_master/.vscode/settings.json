@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/arpan/rudra_tasks/ros-master/build/rover_master",
+        "/home/arpan/rover-master-gui/install/rover_master/lib/python3.10/site-packages",
+        "/home/arpan/rudra_tasks/ros-slave/build/rover_slave",
+        "/home/arpan/rudra_tasks/ros-slave/install/rover_slave/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
