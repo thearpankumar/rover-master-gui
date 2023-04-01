@@ -1,7 +1,7 @@
 # rover-master-gui
 Master controller for all in one for our rover 
 
-# Pending tasks 
+# Feastures  
 
 ###   Wireless sabertooth motor controller
 ###   Low latency Video stream 
